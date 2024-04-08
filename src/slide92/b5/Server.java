@@ -28,7 +28,6 @@ public class Server {
             String[] userPass = userInput.split(" ");
             String username = userPass[0];
             String password = userPass[1];
-            password = password.toString();
             System.out.println("User name and pass from client: " + username + ", " + password);
 
             // Kiểm tra tên người dùng và mật khẩu trong file
